@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./img/pokebola.ico"/>
+</head>
+<body>
+    
+    <header>
+        <nav class="nav">
+            <center><img  src="./img/logo2.png" height="" width="330" alt="Logo Pokédex"></center>
+            <form class="search-form">
+                <input type="text" id="search-input" placeholder="Ingresa el nombre del pokemon">
+
+            </form>
+
+        </nav>
+    </header>
+    <main>
+        
+        <div id="todos">
+            <div class="pokemon-todos" id="listaPokemon">
+            </div>
+            <div id="pagination" class="pagination">
+                <button id="prevBtn" class="btn pagination-btn" disabled>Anterior</button>
+                <button id="nextBtn" class="btn pagination-btn">Siguiente</button>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
